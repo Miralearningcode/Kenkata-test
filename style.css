@@ -1,0 +1,23 @@
+/*  
+display: block;             reserverar en hel rad, elementet tar upp hela raden
+display: inline;            reserverar det utrymme som krävs, element läggs på samma rad(om det får plats)
+display: inline-block;      beteer sig som en inline, men vi kan sätta höjd, bredd etc.
+display: flex;
+ */
+
+#parent {
+    display: flex;
+
+}
+
+#child-1 {
+    flex: 1;
+}
+
+#child-2 {
+    flex: 1;
+}
+
+#child-3 {
+    flex: 1;
+}
